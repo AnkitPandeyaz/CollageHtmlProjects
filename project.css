@@ -1,0 +1,309 @@
+.button {
+  background-color: rgb(18, 116, 177);
+  /* blue */
+  border: none;
+  color: rgb(253, 247, 247);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+}
+
+
+.button1 {
+  width: 250px;
+}
+
+.button2 {
+  width: 250px;
+}
+
+.button3 {
+  width: 250px;
+}
+
+.button4 {
+  width: 250px;
+}
+
+.button5 {
+  width: 250px;
+}
+
+/*text css start from here*/
+.text-left-right {
+  text-align: right;
+  position: relative;
+}
+
+.left-text {
+  display: inline;
+  float: middle;
+}
+
+.byline {
+  float: inline-end;
+  font-size: 16px;
+  color: rgb(16, 16, 16);
+}
+
+/*ctow column layout start from here*/
+* {
+  margin: 0px;
+  padding: 1px;
+  box-sizing: content-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 42%;
+  padding: 10px;
+  height: 100vh;
+  /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+  float: right;
+  width: 55%;
+  padding: 10px;
+  height: 100vh;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Image css start from  here*/
+
+.img-wrap {
+  width: 100%;
+}
+
+.img-wrap img {
+  float: right;
+  margin: 0 0 0 15px;
+  width: 30%;
+  padding: 10px;
+  border-radius: 20%;
+  box-shadow: 0 0 10px #999999;
+  height: 30vh;
+
+}
+
+/*figure captions*/
+
+figure {
+  border: thin #c0c0c0 solid;
+  
+  flex-flow: column;
+  padding: 5px;
+ 
+  margin: auto;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+/*table css start here*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/*qualification layout*/
+* {
+  margin: 0px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100vh; /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100vh; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img-wrap1 {
+  width: 100%;
+}
+
+.img-wrap1 img {
+  float: right;
+  margin: 0 0 0 15px;
+  width: 30%;
+  padding: 10px;
+  border-radius: 20%;
+  box-shadow: 0 0 10px #999999;
+  height: 30vh;
+
+}
+
+
+table3 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.img-wrap2 {
+  width: 100%;
+}
+
+.img-wrap2 img {
+  float: right;
+  margin: 0 0 0 15px;
+  width: 30%;
+  padding: 10px;
+  border-radius: 20%;
+  box-shadow: 0 0 10px #999999;
+  height: 30vh;
+
+}
+
+
+* {
+  margin: 0px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column3 {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height:100vh; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.img-wrap3 {
+  width: 100%;
+}
+
+.img-wrap3 img {
+  float: right;
+  margin: 0 0 0 0;
+  width: 50%;
+  height: 68vh;
+
+}
+
+
+.img-wrap4 {
+  width: 100%;
+}
+
+.img-wrap4 img {
+  float: right;
+  margin: 0 0 0 15px;
+  width: 100%;
+  padding: 10px;
+  /* border-radius: 20%; */
+  box-shadow: 0 0 10px #999999;
+  height: 100vh;
+
+}
+
+
+.button6 {
+  background-color: rgb(18, 116, 177);
+  /* blue */
+  border: none;
+  color: rgb(253, 247, 247);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+}
+
+.button6 {
+  width: 250px;
+}
+
+
+
+* {
+  margin: 0px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column4 {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height:100vh; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
